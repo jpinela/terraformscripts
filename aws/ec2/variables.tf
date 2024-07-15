@@ -5,17 +5,17 @@ variable "region" {
 
 variable "cluster_name" {
   description = "The name of the EMR cluster."
-  default     = "emr-10"
+  default     = "emr-07"
 }
 
 variable "s3_bucket_name" {
   description = "The name of the S3 bucket."
-  default     = "emr-10-01-ecu32"
+  default     = "emr-07-01-ecu32"
 }
 
 variable "emr_role_name" {
   description = "The name of the IAM role."
-  default     = "emr-10-role"
+  default     = "emr-07-role"
 }
 
 variable "number_of_nodes" {
